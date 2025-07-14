@@ -19,7 +19,7 @@ const Navbar = () => {
       </li>
       {/* Resume button for small devices */}
       <li className="block lg:hidden mt-2">
-        <button className="btn text-white border-0 bg-[#FFAF22]">Resume</button>
+        <button className="btn text-white border-0 hover:scale-108 transition bg-[#FFAF22]">Resume</button>
       </li>
     </>
   );
@@ -30,7 +30,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link
           to="/"
-          className="text-[#FFAF22] md:text-xl lg:text-2xl font-bold hover:scale-105 transition"
+          className="roboto text-[#FFAF22] md:text-xl lg:text-2xl font-bold hover:scale-105 transition"
         >
           &lt;Joynul/&gt;
         </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
 
       {/* Center menu for large devices */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="flex gap-6 px-1">{links}</ul>
+        <ul className="flex font-medium text-sm gap-6 px-1 inter">{links}</ul>
       </div>
 
       {/* Right side - dropdown on small, resume on large */}
@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu text-black menu-sm dropdown-content mt-3 z-[100] p-2 shadow bg-base-100 rounded-box w-52 right-0"
+            className="menu inter text-black menu-sm dropdown-content mt-3 z-[100] p-2 shadow bg-base-100 rounded-box w-52 right-0"
           >
             {links}
           </ul>
@@ -71,7 +71,7 @@ const Navbar = () => {
 
         {/* Resume button for large devices */}
         <div className="hidden lg:block">
-          <button className="btn text-white border-0 bg-[#FFAF22] hover:scale-110 transition">Resume</button>
+          <button className="roboto btn text-white border-0 bg-[#FFAF22] hover:scale-108 transition">Resume</button>
         </div>
       </div>
     </div>
