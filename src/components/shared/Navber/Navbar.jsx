@@ -25,7 +25,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar text-white bg-[#333646] shadow-sm max-w-7xl mx-auto fixed top-0 left-0 right-0 z-50">
+    <div className="navbar text-white bg-[#333646] shadow-sm max-w-6xl mx-auto fixed top-0 left-0 right-0 z-50">
       <div className="navbar-start">
         {/* Logo */}
         <Link
