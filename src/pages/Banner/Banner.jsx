@@ -1,28 +1,30 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import { Typewriter } from 'react-simple-typewriter';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import { Typewriter } from "react-simple-typewriter";
 import bannerImg from "../../assets/banner-img.png";
+import { FaArrowDownLong } from "react-icons/fa6";
 
 const Banner = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000, once: true }); 
+    AOS.init({ duration: 2000, once: true });
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-6 pt-10 md:pt-12 lg:pt-16">
+    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-6 pt-5 md:pt-12 lg:pt-16">
       {/* Banner Content */}
-      <div
-        className="md:w-1/2 text-center md:text-left"
-        data-aos="fade-up"
-      >
+      <div className="md:w-1/2 text-center md:text-left" data-aos="fade-up">
         <h1 className="roboto text-4xl md:text-5xl font-bold mb-4">
-          Hi, I'm Joynul
+          Hi<span className="text-[#FFAF22]">,</span> I'm Joynul Abedin
         </h1>
 
         {/* Typewriter effect here */}
         <h2 className="text-xl md:text-2xl font-semibold text-yellow-400 mb-4 inter">
           <Typewriter
-            words={['MERN Stack Developer', 'Problem Solver', 'Lifelong Learner']}
+            words={[
+              "MERN Stack Developer",
+              "Problem Solver",
+              "Lifelong Learner",
+            ]}
             loop={true}
             cursor
             cursorStyle="|"
@@ -43,24 +45,31 @@ const Banner = () => {
         <div className="flex justify-center md:justify-normal gap-3">
           <a
             href="#projects"
-            className="inline-block border-0 bg-[#FFAF22] text-black px-6 py-3 rounded-lg inter shadow hover:bg-[#ecb85e] transition"
+            className="inline-block whitespace-nowrap border-0 bg-[#FFAF22] text-white px-2 md:px-6 py-3 rounded-lg inter shadow hover:scale-105 transition duration-300"
           >
             View My Work
           </a>
           <a
             href="#"
-            className="inline-block border-2 border-[#FFAF22] text-yellow-300 px-6 py-3 rounded-lg shadow transition duration-300 inter hover:bg-[#FFAF22] hover:text-black"
+            className="relative inline-block overflow-hidden border-2 border-[#FFAF22] text-yellow-300 px-2 md:px-6 py-3 rounded-lg shadow transition duration-300 inter group"
           >
-            Get In Touch
+            <span className="relative z-10 group-hover:text-white transition duration-300">
+              Get In Touch
+            </span>
+            <span className="absolute left-0 top-0 h-full w-0 bg-[#FFAF22] transition-all duration-800 group-hover:w-full"></span>
           </a>
+        </div>
+        {/* Scroll Arrow */}
+        <div className="mt-8 flex flex-col items-center animate-bounce">
+          <p className="text-base inter">Scroll to explore</p>
+          <span className="mt-2 text-[#FFAF22]">
+            <FaArrowDownLong />
+          </span>
         </div>
       </div>
 
       {/* Banner Img */}
-      <div
-        className="md:w-1/2 mt-10 md:mt-0"
-        data-aos="flip-right"
-      >
+      <div className="flex end md:w-1/2 mt-15 md:mt-0" data-aos="flip-right">
         <img
           src={bannerImg}
           alt="Joynul Abedin"

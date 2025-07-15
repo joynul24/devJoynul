@@ -1,8 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
-import {} from "./Navber.css"
 
 const Navbar = () => {
-    const hoverClass = "transition-transform duration-300 hover:-translate-y-1";
+    const hoverClass = "transition-transform duration-300 hover:text-[#FFAF22] hover:-translate-y-1";
   const links = (
     <>
       <li className={hoverClass}>
@@ -71,7 +70,7 @@ const Navbar = () => {
 
         {/* Resume button for large devices */}
         <div className="hidden lg:block">
-          <button className="roboto btn text-white border-0 bg-[#FFAF22] hover:scale-108 transition">Resume</button>
+          <button className="roboto btn text-white border-0 bg-[#FFAF22] hover:scale-108 transition duration-300">Resume</button>
         </div>
       </div>
     </div>
