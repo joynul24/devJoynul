@@ -40,3 +40,33 @@
 .animate-zoomInOut {
   animation: zoomInOut 5s ease-in-out infinite;
 }
+
+
+
+
+/* Skill card auto scrol Key */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.scroll-left {
+  animation: scroll-left 27s linear infinite;
+}
+
+.scroll-right {
+  animation: scroll-right 27s linear infinite;
+}
