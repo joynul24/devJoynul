@@ -65,7 +65,7 @@ const renderSkill = (skill, i) => (
 // Main component
 const SkillAndTech = () => {
   return (
-    <div className="py-20 md:py-25">
+    <div className="py-10 md:py-25">
       <SectionTitle
         title="Skills & Technologies"
         subTitle="A comprehensive toolkit for building modern web applications"
