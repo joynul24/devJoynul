@@ -60,7 +60,7 @@ const AboutMe = () => {
                   rel="noopener noreferrer"
                   data-aos="fade-up"
                   data-aos-delay="200"
-                  className="hover:text-cyan-500 text-4xl transition duration-300 hover:-translate-y-2"
+                  className="hover:text-cyan-500 text-4xl hover:scale-108 transition duration-500"
                 >
                   <FaLinkedin />
                 </a>
@@ -70,7 +70,7 @@ const AboutMe = () => {
                   rel="noopener noreferrer"
                   data-aos="fade-up"
                   data-aos-delay="400"
-                  className="hover:text-gray-900 text-4xl transition duration-300 hover:-translate-y-2"
+                  className="hover:text-gray-900 text-4xl hover:scale-108 transition duration-500"
                 >
                   <FaGithub />
                 </a>
@@ -80,7 +80,7 @@ const AboutMe = () => {
                   rel="noopener noreferrer"
                   data-aos="fade-up"
                   data-aos-delay="600"
-                  className="hover:text-blue-500 text-4xl transition duration-300 hover:-translate-y-2"
+                  className="hover:text-blue-500 text-4xl hover:scale-108 transition duration-500"
                 >
                   <FaFacebook />
                 </a>

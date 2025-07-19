@@ -4,6 +4,7 @@ import { BsDatabaseFillCheck } from "react-icons/bs";
 import { SiDatabricks } from "react-icons/si";
 import { MdDesignServices } from "react-icons/md";
 import { GrDatabase } from "react-icons/gr";
+import { MdOutlineSettingsSuggest } from "react-icons/md";
 
 const WhatIDo = () => {
     return (
@@ -45,7 +46,7 @@ const WhatIDo = () => {
                 </div>
                 {/* card 6 */}
                 <div className="bg-[#424758] p-6 rounded md:rounded-none flex flex-col space-y-3 hover:bg-[#FFAF22] hover:-translate-y-2 duration-800">
-                    <span className="text-2xl  md:text-2xl lg:text-3xl"><GrDatabase /></span>
+                    <span className="text-2xl  md:text-2xl lg:text-3xl"><MdOutlineSettingsSuggest /></span>
                     <h3 className="roboto md:text-xl font-bold">Performance Tuning</h3>
                     <p className="inter text-gray-300">Optimizing React applications through code splitting, lazy loading, and other best practices to ensure faster load times and smoother user experience.</p>
                 </div>
