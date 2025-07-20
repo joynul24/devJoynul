@@ -10,7 +10,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-6 pt-5 md:pt-12 lg:pt-16">
+    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-6 pb-5 md:pb-0 pt-2 md:pt-12 lg:pt-16">
       {/* Banner Content */}
       <div className="md:w-1/2 text-center md:text-left" data-aos="fade-up">
         <h1 className="roboto text-4xl md:text-5xl font-bold mb-4">
@@ -69,7 +69,7 @@ const Banner = () => {
       </div>
 
       {/* Banner Img */}
-      <div className="flex end md:w-1/2 mt-15 md:mt-0" data-aos="flip-right">
+      <div className="flex end w-[280px] md:w-1/2 mt-5 md:mt-0" data-aos="flip-right">
         <img
           src={bannerImg}
           alt="Joynul Abedin"

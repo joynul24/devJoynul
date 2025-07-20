@@ -31,7 +31,7 @@ const Projects = () => {
   const visibleProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
-    <div className="py-12 md:my-20">
+    <div className="py-12 md:my-18">
       <SectionTitle
         title="My Projects"
         subTitle="A glimpse into the real-world applications I’ve built with passion.

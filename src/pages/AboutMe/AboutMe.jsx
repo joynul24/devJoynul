@@ -5,8 +5,8 @@ import cssLogo from "../../assets/skills-logo/css-skill-logo.png";
 import jsLogo from "../../assets/skills-logo/js-skill-logo.png";
 import reactLogo from "../../assets/skills-logo/react-skill-logo.png";
 import backendLogo from "../../assets/skills-logo/backend-skill-logo.png";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 import SectionTitle from "../../components/shared/SectionTitle/SectionTitle";
+import { FaDownload } from "react-icons/fa6";
 
 const AboutMe = () => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const AboutMe = () => {
 
   return (
     <div className="bg-[#242734] mt-5 md:mt-20">
-      <div className="max-w-6xl mx-auto py-25 px-2">
+      <div className="max-w-6xl mx-auto py-10 md:py-20 px-2">
         <SectionTitle
           title="About me"
           subTitle="I am passionate about creating effective and user-friendly web interfaces, guided by a creative mindset and a keen eye for detail in design."
@@ -46,45 +46,17 @@ const AboutMe = () => {
             </p>
 
             <div className="mt-15">
-              <h3
-                className="text-center md:text-left text-xl md:text-2xl font-bold inter"
-                data-aos="fade-down"
-                data-aos-delay="100"
+              <a
+                href="https://docs.google.com/document/d/1ay-5XywRiqSJFi2K7Hmg1mZejiB2kPRqBtNt8aQq7M8/export?format=pdf"
+                download
+                className="relative inline-block overflow-hidden border-2 border-[#FFAF22] text-yellow-300 px-2 md:px-6 py-3 rounded-lg shadow transition duration-300 inter group"
               >
-                Follow me
-              </h3>
-              <div className="flex items-center gap-8 md:gap-5 mt-6 md:mt-4 justify-center md:justify-normal">
-                <a
-                  href="https://www.linkedin.com/in/devjoynul/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  className="hover:text-cyan-500 text-4xl hover:scale-108 transition duration-500"
-                >
-                  <FaLinkedin />
-                </a>
-                <a
-                  href="https://github.com/joynul24"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  className="hover:text-gray-900 text-4xl hover:scale-108 transition duration-500"
-                >
-                  <FaGithub />
-                </a>
-                <a
-                  href="https://web.facebook.com/ma.joynul"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                  className="hover:text-blue-500 text-4xl hover:scale-108 transition duration-500"
-                >
-                  <FaFacebook />
-                </a>
-              </div>
+                <span className="relative z-10 group-hover:text-white transition duration-300 flex items-center gap-2">
+                  <FaDownload />
+                  Resume
+                </span>
+                <span className="absolute left-0 top-0 h-full w-0 bg-[#FFAF22] transition-all duration-800 group-hover:w-full"></span>
+              </a>
             </div>
           </div>
 
@@ -98,7 +70,11 @@ const AboutMe = () => {
             </h2>
             <div>
               {/* Progress 1 */}
-              <div className="w-full mb-3" data-aos="fade-up" data-aos-delay="100">
+              <div
+                className="w-full mb-3"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
                 <div className="flex justify-between items-center">
                   <img className="w-8" src={htmlLogo} alt="HTML" />
                   <p className="text-right text-sm text-white">85%</p>
@@ -111,7 +87,11 @@ const AboutMe = () => {
               </div>
 
               {/* Progress 2 */}
-              <div className="w-full mb-3" data-aos="fade-up" data-aos-delay="200">
+              <div
+                className="w-full mb-3"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 <div className="flex justify-between items-center">
                   <img className="w-8" src={cssLogo} alt="CSS" />
                   <p className="text-right text-sm text-white">80%</p>
@@ -124,7 +104,11 @@ const AboutMe = () => {
               </div>
 
               {/* Progress 3 */}
-              <div className="w-full mb-3" data-aos="fade-up" data-aos-delay="300">
+              <div
+                className="w-full mb-3"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <div className="flex justify-between items-center">
                   <img className="w-8" src={jsLogo} alt="JavaScript" />
                   <p className="text-right text-sm text-white">75%</p>
@@ -137,7 +121,11 @@ const AboutMe = () => {
               </div>
 
               {/* Progress 4 */}
-              <div className="w-full mb-3" data-aos="fade-up" data-aos-delay="400">
+              <div
+                className="w-full mb-3"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
                 <div className="flex justify-between items-center">
                   <img className="w-8" src={reactLogo} alt="React" />
                   <p className="text-right text-sm text-white">70%</p>
@@ -150,7 +138,11 @@ const AboutMe = () => {
               </div>
 
               {/* Progress 5 */}
-              <div className="w-full mb-3" data-aos="fade-up" data-aos-delay="500">
+              <div
+                className="w-full mb-3"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
                 <div className="flex justify-between items-center">
                   <img className="w-8" src={backendLogo} alt="Backend" />
                   <p className="text-right text-sm text-white">60%</p>
