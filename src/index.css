@@ -72,4 +72,6 @@
 }
 
 
-/* Custom Scroll bar */
+/* html {
+  scroll-behavior: smooth;
+} */

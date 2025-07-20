@@ -2,6 +2,9 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 import AOS from "aos";
 import { useEffect } from "react";
 import SectionTitle from "../../components/shared/SectionTitle/SectionTitle";
+import { TfiEmail } from "react-icons/tfi";
+import { FaPhoneAlt } from "react-icons/fa";
+import { CiLocationOn } from "react-icons/ci";
 
 const Contact = () => {
   useEffect(() => {
@@ -27,13 +30,16 @@ const Contact = () => {
               want to say hi, don’t hesitate to reach out.
             </p>
             <div className="space-y-4 inter text-gray-300">
-              <p>
+              <p className="flex items-center gap-2">
+                <TfiEmail />
                 <strong>Email:</strong> joynula969@gmail.com
               </p>
-              <p>
+              <p className="flex items-center gap-2">
+                <FaPhoneAlt />
                 <strong>Phone:</strong> +880 1301249019
               </p>
-              <p>
+              <p className="flex items-center gap-2">
+                <CiLocationOn />
                 <strong>Location:</strong> Sylhet, Bangladesh
               </p>
             </div>

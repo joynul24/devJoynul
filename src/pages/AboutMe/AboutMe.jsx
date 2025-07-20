@@ -45,7 +45,7 @@ const AboutMe = () => {
               people’s lives.
             </p>
 
-            <div className="mt-15">
+            <div className=" mt-8 md:mt-15">
               <a
                 href="https://docs.google.com/document/d/1ay-5XywRiqSJFi2K7Hmg1mZejiB2kPRqBtNt8aQq7M8/export?format=pdf"
                 download

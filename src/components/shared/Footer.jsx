@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="footer roboto sm:footer-horizontal text-white footer-center bg-[#242734] p-4">
+    <footer className="footer roboto sm:footer-horizontal text-white footer-center bg-[#424758] p-4">
       <aside>
         <p>
           &copy; {new Date().getFullYear()} — Joynul. All rights reserved.

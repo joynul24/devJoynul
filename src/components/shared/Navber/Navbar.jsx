@@ -1,27 +1,47 @@
 import { Link, NavLink } from "react-router-dom";
+import { Element, Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const hoverClass =
-    "transition-transform duration-300 hover:text-[#FFAF22] hover:-translate-y-1";
+    "transition-transform duration-300 hover:text-[#FFAF22] cursor-pointer hover:-translate-y-1";
   const links = (
     <>
       <li className={hoverClass}>
-        <NavLink to="/">About</NavLink>
+        <ScrollLink to="about" smooth={true} duration={1000} offset={-10}>
+          About
+        </ScrollLink>
       </li>
       <li className={hoverClass}>
-        <NavLink to="s">Skills</NavLink>
+        <ScrollLink to="skills" smooth={true} duration={1000} offset={-80}>
+          Skills
+        </ScrollLink>
       </li>
       <li className={hoverClass}>
-        <NavLink to="s">Projects</NavLink>
+        <ScrollLink to="services" smooth={true} duration={1000} offset={-80}>
+          Services
+        </ScrollLink>
       </li>
       <li className={hoverClass}>
-        <NavLink to="s">Contact</NavLink>
+        <ScrollLink to="projects" smooth={true} duration={1000} offset={-50}>
+          Projects
+        </ScrollLink>
       </li>
+      <li className={hoverClass}>
+        <ScrollLink to="contact" smooth={true} duration={1000} offset={-10}>
+          Contact
+        </ScrollLink>
+      </li>
+
       {/* Resume button for small devices */}
       <li className="block lg:hidden mt-2">
-        <button className="btn text-white border-0 hover:scale-108 transition bg-[#FFAF22]">
+        <a
+          href="https://docs.google.com/document/d/1ay-5XywRiqSJFi2K7Hmg1mZejiB2kPRqBtNt8aQq7M8/preview"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="roboto btn text-white border-0 bg-[#FFAF22] hover:scale-108 transition duration-300"
+        >
           Resume
-        </button>
+        </a>
       </li>
     </>
   );
