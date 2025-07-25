@@ -84,6 +84,15 @@
   },
   {
     "id": 8,
+    "image": "./all-projects-img/Alphabet-Game-Pro.png",
+    "title": "Alphabet_Game_Pro",
+    "description": "Alphabet_Game_Pro is a JavaScript-based typing game where users type the shown letters without looking at the keyboard. Each correct input earns 1 point, helping improve reflexes and focus.",
+    "technologies": ["#JavaScript", "#CSS3", "#tailwind", "#daisyui"],
+    "liveLink": "https://joynul24.github.io/Alphabet_Game_Pro/",
+    "github": "https://github.com/joynul24/Alphabet_Game_Pro.git"
+  },
+  {
+    "id": 9,
     "image": "./all-projects-img/DonateBD-img.png",
     "title": "DonateBD",
     "description": "DonateBD is a trusted platform connecting donors with impactful charitable causes across Bangladesh. Empower communities by contributing to health, education, and disaster relief efforts.",
@@ -92,7 +101,7 @@
     "github": "https://github.com/joynul24/DonateBD"
   },
   {
-    "id": 9,
+    "id": 10,
     "image": "./all-projects-img/HomeVibe-img.png",
     "title": "HomeVibe-Project",
     "description": "HomeVibe is a lifestyle project focused on modern living, interior inspiration, and cozy home solutions. Discover ideas, products, and vibes that turn a house into a home.",
@@ -101,7 +110,7 @@
     "github": "https://github.com/joynul24/HomeVibe-Project"
   },
   {
-    "id": 10,
+    "id": 11,
     "image": "./all-projects-img/TrainTribe-img.png",
     "title": "TrainTribe-Website",
     "description": "TrainTribe is a community-driven platform for train lovers, travelers, and commuters. Explore routes, share experiences, and stay updated with everything about rail journeys.",
@@ -110,7 +119,7 @@
     "github": "https://github.com/joynul24/TrainTribe-Website"
   },
   {
-    "id": 11,
+    "id": 12,
     "image": "./all-projects-img/developer-portfolio-img.png",
     "title": "Developer-Portfolio",
     "description": "A personal portfolio showcasing my skills, projects, and journey as a web developer. Built to reflect my passion for clean code, creative design, and problem-solving.",
