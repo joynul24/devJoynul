@@ -44,87 +44,21 @@
     "github": "https://github.com/joynul24/Camping-Retreats"
   },
   {
-    "id": 5,
-    "image": "./all-projects-img/playermart-img.png",
-    "title": "PlayerMart-website",
-    "description": "Gadget-Heavens is an inventory management website for electronic gadgets. Users can browse products, place orders, and efficiently manage stock levels, with minimum quantity alerts to help with restocking and smooth inventory control.",
-    "technologies": [
-      "#react",
-      "#JavaScript",
-      "#react-dom",
-      "#tailwind",
-      "#daisyui"
-    ],
-    "liveLink": "https://playermart.netlify.app/",
-    "github": "https://github.com/joynul24/PlayerMart-website"
-  },
+  "id": 5,
+  "image": "./all-projects-img/fencing-justified.png",
+  "title": "Fencing-Justified",
+  "description": "Fencing-Justified is a responsive web layout built with HTML, Tailwind CSS, and JavaScript, featuring smooth interactive sliders powered by Swiper. It offers a clean, justified fencing-style design for an engaging user experience on all devices.",
+  "technologies": ["#HTML5", "#TailwindCSS", "#JavaScript", "#SwiperJS"],
+  "liveLink": "https://fencing-justified-25.netlify.app/",
+  "github": "https://github.com/joynul24/Fencing-Justified"
+},
   {
     "id": 6,
-    "image": "./all-projects-img/gadgetnest-img.png",
-    "title": "GadgetNest",
-    "description": "GadgetNest is an inventory management website for electronic gadgets. Users can browse products, place orders, and efficiently manage stock levels, with minimum quantity alerts to help with restocking and smooth inventory control.",
-    "technologies": [
-      "#react",
-      "#JavaScript",
-      "#react-dom",
-      "#tailwind",
-      "#daisyui"
-    ],
-    "liveLink": "https://gadgetnest.netlify.app/",
-    "github": "https://github.com/joynul24/GadgetNest"
-  },
-  {
-    "id": 7,
-    "image": "./all-projects-img/Beautiful-Pets-img.png",
-    "title": "Beautiful_Pets",
-    "description": "Beautiful_Pets is your go-to destination for everything pets — care tips, adorable stories, and quality products. Celebrate the joy of pet companionship with us!",
-    "technologies": ["#JavaScript", "#tailwind", "#daisyui"],
-    "liveLink": "https://joynul24.github.io/Beautiful_Pets/",
-    "github": "https://github.com/joynul24/Beautiful_Pets"
-  },
-  {
-    "id": 8,
     "image": "./all-projects-img/Alphabet-Game-Pro.png",
     "title": "Alphabet_Game_Pro",
     "description": "Alphabet_Game_Pro is a JavaScript-based typing game where users type the shown letters without looking at the keyboard. Each correct input earns 1 point, helping improve reflexes and focus.",
     "technologies": ["#JavaScript", "#CSS3", "#tailwind", "#daisyui"],
     "liveLink": "https://joynul24.github.io/Alphabet_Game_Pro/",
     "github": "https://github.com/joynul24/Alphabet_Game_Pro.git"
-  },
-  {
-    "id": 9,
-    "image": "./all-projects-img/DonateBD-img.png",
-    "title": "DonateBD",
-    "description": "DonateBD is a trusted platform connecting donors with impactful charitable causes across Bangladesh. Empower communities by contributing to health, education, and disaster relief efforts.",
-    "technologies": ["#JavaScript", "#tailwind", "#HTML", "#daisyui"],
-    "liveLink": "https://joynul24.github.io/DonateBD/",
-    "github": "https://github.com/joynul24/DonateBD"
-  },
-  {
-    "id": 10,
-    "image": "./all-projects-img/HomeVibe-img.png",
-    "title": "HomeVibe-Project",
-    "description": "HomeVibe is a lifestyle project focused on modern living, interior inspiration, and cozy home solutions. Discover ideas, products, and vibes that turn a house into a home.",
-    "technologies": ["#HTML", "#CSS", "#tailwind", "#daisyui"],
-    "liveLink": "https://joynul24.github.io/HomeVibe-Project/",
-    "github": "https://github.com/joynul24/HomeVibe-Project"
-  },
-  {
-    "id": 11,
-    "image": "./all-projects-img/TrainTribe-img.png",
-    "title": "TrainTribe-Website",
-    "description": "TrainTribe is a community-driven platform for train lovers, travelers, and commuters. Explore routes, share experiences, and stay updated with everything about rail journeys.",
-    "technologies": ["#HTML", "#CSS3"],
-    "liveLink": "https://joynul24.github.io/TrainTribe-Website/",
-    "github": "https://github.com/joynul24/TrainTribe-Website"
-  },
-  {
-    "id": 12,
-    "image": "./all-projects-img/developer-portfolio-img.png",
-    "title": "Developer-Portfolio",
-    "description": "A personal portfolio showcasing my skills, projects, and journey as a web developer. Built to reflect my passion for clean code, creative design, and problem-solving.",
-    "technologies": ["#HTML", "#CSS"],
-    "liveLink": "https://joynul24.github.io/developer-portfolio/",
-    "github": "https://github.com/joynul24/developer-portfolio"
   }
 ]
