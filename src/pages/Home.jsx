@@ -3,6 +3,7 @@ import Banner from "./Banner/Banner";
 import Contact from "./Contact/Contact";
 import Projects from "./Projects/Projects";
 import SkillAndTech from "./SkillAndTech/SkillAndTech";
+import TechnicalSkills from "./TechnicalSkills/TechnicalSkills";
 import WhatIDo from "./WhatIDo/WhatIDo";
 import { Element } from "react-scroll";
 
@@ -15,6 +16,7 @@ const Home = () => {
       </Element>
       <Element name="skills">
         <SkillAndTech></SkillAndTech>
+        <TechnicalSkills></TechnicalSkills>
       </Element>
       <Element name="services">
         <WhatIDo></WhatIDo>
