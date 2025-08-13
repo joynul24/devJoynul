@@ -16,8 +16,8 @@ const Home = () => {
       </Element>
       <Element name="skills">
         <SkillAndTech></SkillAndTech>
-        <TechnicalSkills></TechnicalSkills>
       </Element>
+        <TechnicalSkills></TechnicalSkills>
       <Element name="services">
         <WhatIDo></WhatIDo>
       </Element>
