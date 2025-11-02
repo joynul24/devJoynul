@@ -59,7 +59,7 @@ const Contact = () => {
                   <FaLinkedin />
                 </a>
                 <a
-                  href="https://github.com/joynul24"
+                  href="https://www.linkedin.com/in/devjoynul25/"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-aos="zoom-in"
